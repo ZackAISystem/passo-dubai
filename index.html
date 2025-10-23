@@ -7,7 +7,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Aboreto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Aboreto&display=swap"
+          rel="stylesheet">
 
     <meta name="color-scheme" content="light only"/>
 </head>
@@ -32,7 +33,8 @@
         </button>
     </div>
 
-    <div id="menuBackdrop" class="fixed inset-0 z-40 bg-black/50 opacity-0 pointer-events-none transition-opacity duration-300"></div>
+    <div id="menuBackdrop"
+         class="fixed inset-0 z-40 bg-black/50 opacity-0 pointer-events-none transition-opacity duration-300"></div>
 
     <aside id="mobileMenu" aria-hidden="true"
            class="fixed inset-y-0 right-0 z-50 w-[78%] max-w-[22rem] translate-x-full
@@ -40,7 +42,8 @@
         <div class="relative h-full p-6 flex flex-col">
             <button id="menuClose" aria-label="Close menu" class="absolute right-4 top-4">
                 <svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M22.2465 0.666915C22.3962 0.517161 22.5741 0.398368 22.7698 0.317321C22.9655 0.236275 23.1752 0.194561 23.387 0.194561C23.5988 0.194561 23.8086 0.236275 24.0043 0.317321C24.2 0.398368 24.3778 0.517161 24.5276 0.666915C24.6773 0.81667 24.7962 0.994455 24.8772 1.19012C24.9583 1.38578 25 1.59549 25 1.80728C25 2.01906 24.9583 2.22878 24.8772 2.42444C24.7962 2.6201 24.6773 2.79789 24.5276 2.94764L14.7851 12.6913L24.5276 22.4349L24.7355 22.6877C24.9387 22.9982 25.0288 23.3691 24.9906 23.7381C24.9525 24.1072 24.7885 24.4518 24.5261 24.7142C24.2637 24.9765 23.919 25.1405 23.5499 25.1787C23.1808 25.2168 22.8098 25.1267 22.4993 24.9235L22.2465 24.7157L12.5012 14.972L2.75597 24.7185C2.60601 24.8682 2.42801 24.987 2.23214 25.068C2.03628 25.1489 1.82638 25.1906 1.61443 25.1904C1.40248 25.1903 1.19263 25.1484 0.996861 25.0672C0.801094 24.986 0.623244 24.867 0.473465 24.7171C0.323686 24.5671 0.204911 24.3892 0.123922 24.1933C0.0429322 23.9975 0.00131483 23.7876 0.00144527 23.5757C0.0015757 23.3638 0.0434514 23.154 0.124682 22.9583C0.205912 22.7625 0.324906 22.5847 0.47487 22.4349L10.2201 12.6913L0.47206 2.94764L0.266986 2.69485C0.0621835 2.38447 -0.0292223 2.01293 0.00820129 1.64296C0.0456249 1.273 0.209585 0.927287 0.472399 0.664186C0.735214 0.401084 1.08078 0.236717 1.45076 0.198835C1.82073 0.160953 2.19244 0.251878 2.50314 0.456257L2.75597 0.666915L12.5012 10.4078L22.2465 0.666915Z" fill="white"/>
+                    <path d="M22.2465 0.666915C22.3962 0.517161 22.5741 0.398368 22.7698 0.317321C22.9655 0.236275 23.1752 0.194561 23.387 0.194561C23.5988 0.194561 23.8086 0.236275 24.0043 0.317321C24.2 0.398368 24.3778 0.517161 24.5276 0.666915C24.6773 0.81667 24.7962 0.994455 24.8772 1.19012C24.9583 1.38578 25 1.59549 25 1.80728C25 2.01906 24.9583 2.22878 24.8772 2.42444C24.7962 2.6201 24.6773 2.79789 24.5276 2.94764L14.7851 12.6913L24.5276 22.4349L24.7355 22.6877C24.9387 22.9982 25.0288 23.3691 24.9906 23.7381C24.9525 24.1072 24.7885 24.4518 24.5261 24.7142C24.2637 24.9765 23.919 25.1405 23.5499 25.1787C23.1808 25.2168 22.8098 25.1267 22.4993 24.9235L22.2465 24.7157L12.5012 14.972L2.75597 24.7185C2.60601 24.8682 2.42801 24.987 2.23214 25.068C2.03628 25.1489 1.82638 25.1906 1.61443 25.1904C1.40248 25.1903 1.19263 25.1484 0.996861 25.0672C0.801094 24.986 0.623244 24.867 0.473465 24.7171C0.323686 24.5671 0.204911 24.3892 0.123922 24.1933C0.0429322 23.9975 0.00131483 23.7876 0.00144527 23.5757C0.0015757 23.3638 0.0434514 23.154 0.124682 22.9583C0.205912 22.7625 0.324906 22.5847 0.47487 22.4349L10.2201 12.6913L0.47206 2.94764L0.266986 2.69485C0.0621835 2.38447 -0.0292223 2.01293 0.00820129 1.64296C0.0456249 1.273 0.209585 0.927287 0.472399 0.664186C0.735214 0.401084 1.08078 0.236717 1.45076 0.198835C1.82073 0.160953 2.19244 0.251878 2.50314 0.456257L2.75597 0.666915L12.5012 10.4078L22.2465 0.666915Z"
+                          fill="white"/>
                 </svg>
             </button>
 
@@ -65,12 +68,12 @@
         <div class="container-1200 h-full relative">
             <div class="absolute left-[1rem] md:left-0 bottom-[11rem] md:bottom-[9.5rem] flex gap-[1rem]">
                 <div class="px-4 py-6 rounded-[1.2rem] bg-black/55 backdrop-blur-sm">
-                    <div class="text-[1rem] md:text-[1.2rem] font-medium leading-none">September 2029</div>
+                    <div class="text-[1rem] md:text-[1.2rem] font-medium leading-none">December 2029</div>
                     <div class="text-[0.92rem] md:text-[1rem] opacity-80 mt-[0.5rem]">Delivery Date</div>
                 </div>
 
                 <div class="px-4 py-6 rounded-[1.2rem] bg-black/55 backdrop-blur-sm">
-                    <div class="text-[1rem] md:text-[1.2rem] font-medium leading-none">AED 4,635,000</div>
+                    <div class="text-[1rem] md:text-[1.2rem] font-medium leading-none">AED 5,500,000</div>
                     <div class="text-[0.92rem] md:text-[1rem] opacity-80 mt-[0.25rem]">Launch price</div>
                 </div>
             </div>
@@ -78,8 +81,8 @@
             <div class="absolute bottom-[1.5rem] left-[1rem] right-[1rem] md:left-0 md:right-0">
                 <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-[2rem]">
                     <h1 class="text-[2.2rem] md:text-[2.5rem] lg:text-[4.5rem] font-semibold leading-tight">
-            Passo by Beyond
-          </h1>
+                        Passo by Beyond
+                    </h1>
 
                     <a href="#contact"
                        class="md:ml-auto inline-flex items-center justify-center
@@ -110,10 +113,10 @@
 
                         <p class="mt-[0.875rem] text-black/70 leading-relaxed
                       text-[clamp(0.875rem,0.8rem+0.3vw,1rem)]">
-                            The complex consists of two sculptural towers — Avita and Bella, each of which includes two
-                            underground levels, a first floor, fourteen residential floors and a roof. The project features one,
-                            two, three and four-bedroom apartments, exclusive five-bedroom penthouses, and separate six-bedroom
-                            mansions.
+                            Passo by Beyond is an ultra-luxury residential project located on the Crescent side of Palm
+                            Jumeirah, Dubai. The development features two G+14 residential towers with rooftop spaces
+                            and G+2 villas, designed to provide exclusive living with panoramic views of the Arabian
+                            Gulf.
                         </p>
 
                         <a href="#contact"
@@ -141,15 +144,39 @@
             <div class="relative overflow-hidden" data-carousel="wideGallery">
                 <div class="flex transition-transform duration-300 ease-out" data-carousel-track>
                     <div class="w-full shrink-0">
-                        <img src="/assets/images/complex/complex_1.jpg" alt="Passo view 1"
+                        <img src="/assets/images/gallery/gallery_1.jpg" alt="Passo view 1"
                              class="w-full h-[40rem] md:h-[30rem] lg:h-[45rem] object-cover">
                     </div>
                     <div class="w-full shrink-0">
-                        <img src="/assets/images/complex/complex_1.jpg" alt="Passo view 2"
+                        <img src="/assets/images/gallery/gallery_2.jpg" alt="Passo view 2"
                              class="w-full h-[40rem] md:h-[30rem] lg:h-[45rem] object-cover">
                     </div>
                     <div class="w-full shrink-0">
-                        <img src="/assets/images/complex/complex_1.jpg" alt="Passo view 3"
+                        <img src="/assets/images/gallery/gallery_3.jpg" alt="Passo view 2"
+                             class="w-full h-[40rem] md:h-[30rem] lg:h-[45rem] object-cover">
+                    </div>
+                    <div class="w-full shrink-0">
+                        <img src="/assets/images/gallery/gallery_4.jpg" alt="Passo view 2"
+                             class="w-full h-[40rem] md:h-[30rem] lg:h-[45rem] object-cover">
+                    </div>
+                    <div class="w-full shrink-0">
+                        <img src="/assets/images/gallery/gallery_5.jpg" alt="Passo view 2"
+                             class="w-full h-[40rem] md:h-[30rem] lg:h-[45rem] object-cover">
+                    </div>
+                    <div class="w-full shrink-0">
+                        <img src="/assets/images/gallery/gallery_6.jpg" alt="Passo view 2"
+                             class="w-full h-[40rem] md:h-[30rem] lg:h-[45rem] object-cover">
+                    </div>
+                    <div class="w-full shrink-0">
+                        <img src="/assets/images/gallery/gallery_7.jpg" alt="Passo view 2"
+                             class="w-full h-[40rem] md:h-[30rem] lg:h-[45rem] object-cover">
+                    </div>
+                    <div class="w-full shrink-0">
+                        <img src="/assets/images/gallery/gallery_8.jpg" alt="Passo view 2"
+                             class="w-full h-[40rem] md:h-[30rem] lg:h-[45rem] object-cover">
+                    </div>
+                    <div class="w-full shrink-0">
+                        <img src="/assets/images/gallery/gallery_9.jpg" alt="Passo view 2"
                              class="w-full h-[40rem] md:h-[30rem] lg:h-[45rem] object-cover">
                     </div>
                 </div>
@@ -159,7 +186,8 @@
                        bg-black/60 text-white text-[1.25rem] hover:bg-black/70 transition"
                         aria-label="Previous slide" data-carousel-prev>
                     <svg width="16" height="17" viewBox="0 0 16 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13.9997 2L2.07422 14.5L13.9997 27" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M13.9997 2L2.07422 14.5L13.9997 27" stroke="white" stroke-width="4"
+                              stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </button>
 
@@ -168,7 +196,8 @@
                        bg-black/60 text-white text-[1.25rem] hover:bg-black/70 transition"
                         aria-label="Next slide" data-carousel-next>
                     <svg width="17" height="17" viewBox="0 0 17 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2.18586 2L14.1113 14.5L2.18586 27" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2.18586 2L14.1113 14.5L2.18586 27" stroke="white" stroke-width="4"
+                              stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </button>
 
@@ -194,14 +223,15 @@
                 <div class="text-[clamp(1.125rem,1rem+0.3vw,1.25rem)]">Starting Price</div>
                 <div class="mt-[0.5rem]">
                     <div class="font-semibold leading-none text-[clamp(2.5rem,2rem+2vw,3.75rem)]">AED</div>
-                    <div class="font-semibold leading-none text-[clamp(2.5rem,2rem+2vw,3.75rem)]">4,635&nbsp;000</div>
+                    <div class="font-semibold leading-none text-[clamp(2.5rem,2rem+2vw,3.75rem)]">5,500&nbsp;000</div>
                 </div>
             </div>
 
             <div class="rounded-[1.75rem] px-[1.5rem] py-[1.25rem] text-white bg-brand2 md:col-span-2
                   flex flex-col justify-between h-[200px] md:h-auto md:flex-row md:items-center md:justify-between">
                 <div class="text-[clamp(1.75rem,1.6rem+0.4vw,2rem)] font-medium order-2 md:order-1 whitespace-nowrap">
-                    Apartment, Duplex
+                    Apartment,  <br />
+                    Penthouse, Villa
                 </div>
                 <div class="text-[clamp(1.125rem,1rem+0.3vw,1.25rem)] order-1 md:order-2 md:relative md:right-9">
                     Property Type
@@ -210,12 +240,12 @@
 
             <div class="rounded-[1.75rem] p-[1.25rem] gap-12 text-white flex flex-col justify-between bg-brand1 h-[200px] md:h-auto">
                 <div class="text-[clamp(1.125rem,1rem+0.3vw,1.25rem)]">Delivery Date</div>
-                <div class="mt-[0.5rem] font-medium text-[clamp(1.75rem,1.6rem+0.4vw,2rem)]">September 2029</div>
+                <div class="mt-[0.5rem] font-medium text-[clamp(1.75rem,1.6rem+0.4vw,2rem)]">December 2029</div>
             </div>
 
             <div class="rounded-[1.75rem] p-[1.25rem] gap-12 text-white flex flex-col justify-between bg-brand4 h-[200px] md:h-auto">
                 <div class="text-[clamp(1.125rem,1rem+0.3vw,1.25rem)]">Master Developer</div>
-                <div class="mt-[0.5rem] font-medium text-[clamp(1.75rem,1.6rem+0.4vw,2rem)] whitespace-nowrap">Beyond by Omniyat</div>
+                <div class="mt-[0.5rem] font-medium text-[clamp(1.75rem,1.6rem+0.4vw,2rem)] whitespace-nowrap">Beyond</div>
             </div>
         </div>
     </div>
@@ -231,25 +261,31 @@
 
             <div class="grid md:grid-cols-3 gap-2 md:gap-[0.4rem]">
                 <figure class="relative rounded-[1rem] md:rounded-none overflow-hidden">
-                    <img src="/assets/images/complex/infra/infra_1.jpg" class="w-full h-[14rem] md:h-[40rem] object-cover" alt="">
+                    <img src="/assets/images/complex/infra/infra_1.jpg"
+                         class="w-full h-[14rem] md:h-[40rem] object-cover" alt="">
                     <div class="absolute inset-0 pointer-events-none bg-[linear-gradient(180deg,rgba(0,0,0,0.25)_0%,rgba(0,0,0,0.0)_40%,rgba(0,0,0,0.35)_100%)]"></div>
-                    <figcaption class="absolute bottom-0 inset-x-0 p-[0.75rem] md:p-[1rem] text-white font-medium text-[20px] md:text-[30px] bg-gradient-to-t from-black/60 to-transparent">
+                    <figcaption
+                            class="absolute bottom-0 inset-x-0 p-[0.75rem] md:p-[1rem] text-white font-medium text-[20px] md:text-[30px] bg-gradient-to-t from-black/60 to-transparent">
                         Swimming pool
                     </figcaption>
                 </figure>
 
                 <figure class="relative rounded-[1rem] md:rounded-none overflow-hidden">
-                    <img src="/assets/images/complex/infra/infra_2.jpg" class="w-full h-[14rem] md:h-[40rem] object-cover" alt="">
+                    <img src="/assets/images/complex/infra/infra_2.jpg"
+                         class="w-full h-[14rem] md:h-[40rem] object-cover" alt="">
                     <div class="absolute inset-0 pointer-events-none bg-[linear-gradient(180deg,rgba(0,0,0,0.25)_0%,rgba(0,0,0,0.0)_40%,rgba(0,0,0,0.35)_100%)]"></div>
-                    <figcaption class="absolute bottom-0 inset-x-0 p-[0.75rem] md:p-[1rem] text-white font-medium text-[20px] md:text-[30px] bg-gradient-to-t from-black/60 to-transparent">
+                    <figcaption
+                            class="absolute bottom-0 inset-x-0 p-[0.75rem] md:p-[1rem] text-white font-medium text-[20px] md:text-[30px] bg-gradient-to-t from-black/60 to-transparent">
                         Gymnasium
                     </figcaption>
                 </figure>
 
                 <figure class="relative rounded-[1rem] md:rounded-none overflow-hidden">
-                    <img src="/assets/images/complex/infra/infra_3.jpg" class="w-full h-[14rem] md:h-[40rem] object-cover" alt="">
+                    <img src="/assets/images/complex/infra/infra_3.jpg"
+                         class="w-full h-[14rem] md:h-[40rem] object-cover" alt="">
                     <div class="absolute inset-0 pointer-events-none bg-[linear-gradient(180deg,rgba(0,0,0,0.25)_0%,rgba(0,0,0,0.0)_40%,rgba(0,0,0,0.35)_100%)]"></div>
-                    <figcaption class="absolute bottom-0 inset-x-0 p-[0.75rem] md:p-[1rem] text-white font-medium text-[20px] md:text-[30px] bg-gradient-to-t from-black/60 to-transparent">
+                    <figcaption
+                            class="absolute bottom-0 inset-x-0 p-[0.75rem] md:p-[1rem] text-white font-medium text-[20px] md:text-[30px] bg-gradient-to-t from-black/60 to-transparent">
                         Children’s play area
                     </figcaption>
                 </figure>
@@ -269,83 +305,97 @@
     <div class="container-bleed !px-0 overflow-x-hidden md:px-[1.25rem]">
         <div class="relative overflow-hidden" data-carousel="unitsSlider">
             <div class="flex transition-transform duration-300 ease-out" data-carousel-track>
-
                 <div class="w-full shrink-0">
                     <figure class="relative">
-                        <img src="/assets/images/unit-hero.jpg" alt="1 Bedroom — interior"
+                        <img src="/assets/images/appartment/gallery_1.jpg" alt="1 Bedroom — interior"
                              class="w-full h-[53rem] object-cover">
+                    </figure>
+                </div>
+                <div class="w-full shrink-0">
+                    <figure class="relative">
+                        <img src="/assets/images/appartment/gallery_2.jpg" alt="1 Bedroom — interior"
+                             class="w-full h-[53rem] object-cover">
+                    </figure>
+                </div>
+                <div class="w-full shrink-0">
+                    <figure class="relative">
+                        <img src="/assets/images/appartment/gallery_3.jpg" alt="1 Bedroom — interior"
+                             class="w-full h-[53rem] object-cover">
+                    </figure>
+                </div>
+                <div class="w-full shrink-0">
+                    <figure class="relative">
+                        <img src="/assets/images/appartment/gallery_4.jpg" alt="1 Bedroom — interior"
+                             class="w-full h-[53rem] object-cover">
+                    </figure>
+                </div>
+                <div class="w-full shrink-0">
+                    <figure class="relative">
+                        <img src="/assets/images/appartment/gallery_5.jpg" alt="1 Bedroom — interior"
+                             class="w-full h-[53rem] object-cover">
+                    </figure>
+                </div>
+                <div class="w-full shrink-0">
+                    <figure class="relative">
+                        <img src="/assets/images/appartment/gallery_6.jpg" alt="1 Bedroom — interior"
+                             class="w-full h-[53rem] object-cover">
+                    </figure>
+                </div>
+                <div class="w-full shrink-0">
+                    <figure class="relative">
+                        <img src="/assets/images/appartment/gallery_7.jpg" alt="1 Bedroom — interior"
+                             class="w-full h-[53rem] object-cover">
+                    </figure>
+                </div>
+                <div class="w-full shrink-0">
+                    <figure class="relative">
+                        <img src="/assets/images/appartment/gallery_8.jpg" alt="1 Bedroom — interior"
+                             class="w-full h-[53rem] object-cover">
+                    </figure>
+                </div>
+                <div class="w-full shrink-0">
+                    <figure class="relative">
+                        <img src="/assets/images/appartment/gallery_9.jpg" alt="1 Bedroom — interior"
+                             class="w-full h-[53rem] object-cover">
+                    </figure>
+                </div>
+                <div class="w-full shrink-0">
+                    <figure class="relative">
+                        <img src="/assets/images/appartment/gallery_10.jpg" alt="1 Bedroom — interior"
+                             class="w-full h-[53rem] object-cover">
+                    </figure>
+                </div>
+            </div>
 
-                        <div
-                                class="hidden md:flex absolute bottom-[2rem] left-[8rem] right-[8rem]
+            <div
+                    class="hidden md:flex absolute bottom-[2rem] left-[8rem] right-[8rem]
                      items-center gap-[7rem] bg-black/45 text-white rounded-full px-2 pl-[2.5rem] pr-[0.745rem] py-2 backdrop-blur-sm">
-                            <div class="shrink-0 inline-flex items-center gap-3 text-[0.95rem]">
-                                <span class="text-[1rem] md:text-[1.74rem]">1 Bedroom</span>
-                                <span class="text-[1rem] md:text-[1.74rem] opacity-40">| 2 | 3 | 4</span>
-                            </div>
-                            <div class="flex items-center gap-6 text-[1rem] whitespace-nowrap">
-                                <span class="font-medium text-[1rem] md:text-[1.74rem]">AED 1,260,000</span>
-                                <span class="font-medium text-[1rem] md:text-[1.74rem]">From 931 SQFT</span>
-                            </div>
-                            <a href="#contact"
-                               class="ml-auto inline-flex items-center justify-center rounded-full
-                        bg-white/30  backdrop-blur-xs  text-white hover:opacity-80 px-4 py-[14px] md:py-[29px] text-[1rem] md:text-[1.14rem]">
-                                Book a consultation
-                            </a>
-                        </div>
-
-                        <div class="md:hidden absolute left-3 right-3 bottom-3">
-                            <div class="flex justify-between gap-4 bg-black/45 text-white rounded-[1rem] px-4 py-3 backdrop-blur-sm">
-                                    <div class="flex items-center gap-3">
-                                        <span class="text-[1rem]">1 Bedroom</span>
-                                        <span class="text-[1rem] opacity-40">| 2 | 3 | 4</span>
-                                    </div>
-                                <div class="text-right text-sm leading-tight flex flex-col items-center">
-                                    <span class="font-medium text-[1rem]">AED 1,260,000</span>
-                                    <span class="font-medium text-[1rem]">From 931 SQFT</span>
-                                </div>
-                            </div>
-                        </div>
-                    </figure>
+                <div class="shrink-0 inline-flex items-center gap-3 text-[0.95rem]">
+                    <span class="text-[1rem] md:text-[1.74rem]">1 Bedroom</span>
+                    <span class="text-[1rem] md:text-[1.74rem] opacity-40">| 2 | 3 | 4</span>
                 </div>
-
-                <div class="w-full shrink-0">
-                    <figure class="relative">
-                        <img src="/assets/images/unit-hero.jpg" alt="1 Bedroom — interior"
-                             class="w-full h-[53rem] object-cover">
-
-                        <div
-                                class="hidden md:flex absolute bottom-[2rem] left-[8rem] right-[8rem]
-                     items-center gap-[7rem] bg-black/45 text-white rounded-full px-2 pl-[2.5rem] py-2 backdrop-blur-sm">
-                            <div class="shrink-0 inline-flex items-center gap-3 text-[0.95rem]">
-                                <span class="text-[1rem] md:text-[1.74rem]">1 Bedroom</span>
-                                <span class="text-[1rem] md:text-[1.74rem] opacity-40">| 2 | 3 | 4</span>
-                            </div>
-                            <div class="flex items-center gap-6 text-[1rem] whitespace-nowrap">
-                                <span class="font-medium text-[1rem] md:text-[1.74rem]">AED 1,260,000</span>
-                                <span class="font-medium text-[1rem] md:text-[1.74rem]">From 931 SQFT</span>
-                            </div>
-                            <a href="#contact"
-                               class="ml-auto inline-flex items-center justify-center rounded-full
-                        bg-white/30  backdrop-blur-xs  text-white hover:opacity-80 px-4 py-[14px] md:py-[29px] text-[1rem] md:text-[1.14rem]">
-                                Book a consultation
-                            </a>
-                        </div>
-
-                        <div class="md:hidden absolute left-3 right-3 bottom-3">
-                            <div class="flex justify-between gap-4 bg-black/45 text-white rounded-[1rem] px-4 py-3 backdrop-blur-sm">
-                                <div class="flex items-center gap-3">
-                                    <span class="text-[1rem]">1 Bedroom</span>
-                                    <span class="text-[1rem] opacity-40">| 2 | 3 | 4</span>
-                                </div>
-                                <div class="text-right text-sm leading-tight flex flex-col items-center">
-                                    <span class="font-medium text-[1rem]">AED 1,260,000</span>
-                                    <span class="font-medium text-[1rem]">From 931 SQFT</span>
-                                </div>
-                            </div>
-                        </div>
-                    </figure>
+                <div class="flex items-center gap-6 text-[1rem] whitespace-nowrap">
+                    <span class="font-medium text-[1rem] md:text-[1.74rem]">AED 5,500,000</span>
+                    <span class="font-medium text-[1rem] md:text-[1.74rem]">From 840 SQFT</span>
                 </div>
+                <a href="#contact"
+                   class="ml-auto inline-flex items-center justify-center rounded-full
+                        bg-white/30  backdrop-blur-xs  text-white hover:opacity-80 px-4 py-[14px] md:py-[29px] text-[1rem] md:text-[1.14rem]">
+                    Book a consultation
+                </a>
+            </div>
 
+            <div class="md:hidden absolute left-3 right-3 bottom-3">
+                <div class="flex justify-between gap-4 bg-black/45 text-white rounded-[1rem] px-4 py-3 backdrop-blur-sm">
+                    <div class="flex items-center gap-3">
+                        <span class="text-[1rem]">1 Bedroom</span>
+                        <span class="text-[1rem] opacity-40">| 2 | 3 | 4</span>
+                    </div>
+                    <div class="text-right text-sm leading-tight flex flex-col items-center">
+                        <span class="font-medium text-[1rem]">AED 1,260,000</span>
+                        <span class="font-medium text-[1rem]">From 931 SQFT</span>
+                    </div>
+                </div>
             </div>
 
             <button type="button" aria-label="Previous"
@@ -389,11 +439,12 @@
                         <span class="block w-[72px] md:w-[112px] h-[3px] bg-black/70 mb-[0.75rem] md:mb-[1rem]"></span>
 
                         <h3 class="font-medium leading-tight mb-6 text-[2.2rem] lg:text-[3.9rem]">
-                            Location<br />in Dubai
+                            Location<br/>in Dubai
                         </h3>
 
                         <p class="mt-[0.75rem] md:mt-[0.875rem] text-black/70 leading-relaxed text-[1rem]">
-                            Palm Jumeirah’s West Crescent looks out toward the Persian Gulf and back onto Dubai’s glowing skyline.
+                            Palm Jumeirah’s West Crescent looks out toward the Persian Gulf and back onto Dubai’s
+                            glowing skyline.
                         </p>
                         <p class="mt-[0.5rem] text-black/70 leading-relaxed text-[1rem]">
                             From Atlantis The Royal to Nakheel Mall, everything is within reach here.
@@ -440,7 +491,7 @@
                                 class="input-pill !w-full !rounded-[999px] !px-6 py-[25px] md:py-[30px]
                      !bg-white/85 !text-black placeholder:!text-black/60
                      focus:!ring-0 focus:!outline-none text-center text-[1rem] md:text-[1.3rem]"
-                                placeholder="Phone number" />
+                                placeholder="Phone number"/>
 
                         <button
                                 class="btn !rounded-[999px] !px-6 py-[25px] md:py-[30px]
